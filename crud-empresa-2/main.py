@@ -7,4 +7,4 @@ app = FastAPI(
 )
 
 
-app.include_router(departamento_router, prefix="/departamentos". tags["Departamento"])
+app.include_router(departamento_router, prefix="/departamentos", tags=["Departamento"])
