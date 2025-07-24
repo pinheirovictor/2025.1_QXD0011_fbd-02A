@@ -8,3 +8,8 @@ app = FastAPI(
 
 
 app.include_router(departamento_router, prefix="/departamentos", tags=["Departamento"])
+
+
+# uvicorn main:app --reload
+
+# python -m uvicorn main:app --reload
