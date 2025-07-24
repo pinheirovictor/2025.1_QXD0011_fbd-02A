@@ -55,5 +55,5 @@ class Dependente(BaseModel):
     fcpf: str
     nome_dependente: str
     sexo: Optional[str]= None
-    datanasc = Optional[date] = None
+    datanasc : Optional[date] = None
     parentesco: Optional[str] = None
